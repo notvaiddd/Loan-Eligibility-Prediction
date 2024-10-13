@@ -1,0 +1,4 @@
+Project Description:
+
+This project focuses on predicting loan eligibility using a machine learning-based approach. We employ Logistic Regression, a popular binary classification algorithm, to determine whether an applicant is eligible for a loan based on four key features: monthly income, credit score, loan amount, and employment status. The dataset includes these features along with a corresponding eligibility label, allowing the model to learn from past decisions. The data is split into training and testing sets to train the model and evaluate its performance using metrics like accuracy. The model is designed to handle real-time user inputs, making predictions by feeding this data into the trained model. This project integrates data preprocessing, machine learning model training, and prediction workflows to provide an automated decision-making system for loan eligibility.
+

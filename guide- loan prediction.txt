@@ -1,0 +1,18 @@
+ Logic Explanation:
+- The code prepares input features: monthly income, credit score, loan amount, and employment status, along with label (eligibility) from a dataset.
+
+- It uses the Logistic Regression algorithm to:
+  - Learn the relationship between the input features and the eligibility outcome.
+  - The model is trained on historical data to understand patterns that affect eligibility decisions.
+- After training, the model can take new input data (e.g., income, credit score, etc.) and predict loan eligibility based on the patterns it has learned.
+- Logistic Regression computes the probability of eligibility using a weighted sum of the features.
+- The final result is binary:
+  - Eligible (1) or Not Eligible (0), based on a probability threshold.
+- This approach allows for more dynamic and flexible decision-making compared to static rule-based methods.
+
+ Tech Stack Used:
+- Python: The primary programming language for the project.
+- Pandas: For handling and manipulating the dataset.
+- NumPy: To perform numerical operations on arrays.
+- Scikit-learn: For machine learning, including the Logistic Regression model and splitting the dataset for training and testing.
+- Logistic Regression: A classification algorithm used to predict binary outcomes based on input features.
